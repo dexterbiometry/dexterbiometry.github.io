@@ -103,11 +103,11 @@ body {
 }
 .head{
     min-height: 100vh;
-    background-image: url('../img/1.jpg');
+    background-image: url('../img/logo_circle.png');
     position: relative;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size:53vh;
+    background-size: 53vh;
 }
 .fix-bottom{
     text-align: bottom;
@@ -302,9 +302,11 @@ i.fa-heart{
     padding-top: 25px;
 }
 .img-generic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 15px;
-    width: 100%;
-    margin: 0px;
+    width: 75%;
     padding-bottom: 60px;
 }
 .generic-p{
